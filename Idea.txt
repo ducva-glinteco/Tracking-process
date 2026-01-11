@@ -1,0 +1,24 @@
+Các idea:
+* idea 1 Dùng công cụ bên thứ ba:Make(không cần code - có thể auto)
+* idea 2 Google Apps Script(Chạy bằng code js,không cần server - có thể auto)
+* idea 3 full code python(khó triển khai, cần server để chạy - auto chạy bằng cơm)
+
+    - Đọc tin nhắn trong slack channels api bằng cách :
+    + đọc bằng request
+    + đọc bằng tool của slack python slack_sdk
+
+    + trong phần what did you do các task trong đó phải có id(độc nhất) trùng với id của task trên clickup
+
+    + Dạng text của tin nhắn sẽ phải chia thành các phần:
+        - What did you do
+            + Project 
+                . Task sẽ xuất hiện ở đây
+        - What do you plan to do
+        - Blockers
+        - Woking hours
+
+    - Đọc các task trên clickup
+        + phải có id của task, và người được yêu cầu trong task
+    - tổng hợp các task theo từng người trong công ty nối với nhau qua userID hay tên trong công ty vì nhiều người dùng mail khác với (VD ducva)
+    - xem các task trong phần daily standup so sánh xem tiến độ hoàn thành task trong clickup(VD hôm nay đã hoàn thành 3/10 task còn bao nhiêu task còn lại)
+
